@@ -1,0 +1,84 @@
+# pods folder
+Podfile.lock
+Pods/
+Thumbs.db
+# Xcode
+.DS_Store
+**/.DS_Store
+# Visual Studio
+.vs
+build/*
+Build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+!default.xcworkspace
+xcuserdata
+**/xcuserdata/*
+*.xcuserstate 
+profile
+*.moved-aside
+*.pyc
+developer
+
+CI-FX/driver/.idea
+CI-FX/driver/cifx_drivers
+CI-FX/driver/cifx_testsets/common
+CI-FX/driver/cifx_testsets/E2E_API
+CI-FX/driver/omni_driver
+CI-FX/driver/teams_ios/Payload
+
+common/SlimCore/ios/slimcore/
+common/SlimCore/ios/artifacts/compressed
+
+common/ReactNative/libs
+common/ReactNative/third-party
+common/ReactNative/third-party-dependencies
+
+common/Platform/BuildTools/Linters/.build/
+
+apps/Manhattan/Manhattan/en.lproj/Manhattan.strings
+apps/TeamSpaceApp/Pods/Headers/Private/boost-for-react-native
+apps/TeamSpaceApp/Pods/Headers/Public/boost-for-react-native
+apps/TeamSpaceApp/Pods/RCT-Folly
+apps/TeamSpaceApp/Pods/Sourcery/bin/*.js
+apps/TeamSpaceApp/TeamSpaceUITests/Tests/Auth/AuthConstants.swift
+
+ResxLastModified
+TestResults
+
+PAT.token
+
+/**/.idea/*
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+/Packages
+apps/ProjectNext/BuildTools/.build
+apps/ProjectNext/BuildTools/.swiftpm
+!apps/Packages/build/generated/ios/FBReactNativeSpec
+
+# Carthage
+apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Build
+# Pods 
+apps/TeamSpaceApp/Pods/resources-to-copy.txt
+apps/TeamSpaceApp/Pods/resources-to-copy-*.txt
+
+# ignore .npmrc files if they are fetched
+apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluent-mobile-brand-icons/importer/.npmrc
+apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluentui-system-icons/*/.npmrc
+
+/apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluent-mobile-brand-icons/importer/package.json
+/apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluentui-system-icons/importer/package.json
+/apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluentui-system-icons/packages/react-icons/package.json
+/apps/ProjectNext/Commons/TeamsUI/BaseUI/Carthage/Checkouts/fluentui-system-icons/packages/svg-icons/package.json
